@@ -1,0 +1,11 @@
+[project]
+name = "keitai-bot"
+version = "0.1.0"
+description = "携帯端末・料金プラン相談エージェント（LangChain学習用）"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.0",
+    "langchain-google-genai",
+    "langchain-tavily",
+    "python-dotenv>=1.2.4",
+]
